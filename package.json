@@ -7,8 +7,9 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js"
+    "start1": "node app.js",
+    "dev": "nodemon app.js",
+    "start": "npm run dev"
   },
   "dependencies": {
     "loadsh": "^0.0.4"
